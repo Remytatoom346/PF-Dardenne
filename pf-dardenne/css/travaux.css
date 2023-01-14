@@ -1,0 +1,84 @@
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--second-color);
+    padding: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre_card {
+    font-family: var(--font-use);
+    font-size: 1.8rem;
+    color: var(--text-color);
+    border-bottom: solid 2px var(--accent-color);
+    margin: 10px 0 10px 0;
+}
+
+.titre_card_travaux {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    width: 350px;
+    height: 70px;
+    border-radius: 0 0 4px 4px;
+}
+
+.container_card_travaux {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_travaux {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 350px;
+    height: 230px;
+    border-radius: 4px;
+    font-family: var(--font-use);
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin: 50px 150px 50px 150px;
+}
+
+.un {
+    background-image: url(../resources/tatoom-création/tatoom-world.png);
+    background-position: 30%;
+    background-size: 100%;
+}
+
+.deux {
+    background-image: url(../resources/photo/ligth-serie02.jpg);
+    background-position: 30%;
+    background-size: 103%;
+}
+
+.trois {
+    background-image: url(../resources/site_web/MacBook\ Air\ -\ 1.jpg );
+    background-position: 30%;
+    background-size: 105%;
+}
+
+.quatre {
+    background-image: url(../resources/projet/mel-logo.png);
+    background-position: 30%;
+    background-size: 100%;
+}
+
+.cinq {
+    background-image: url(../resources/veille/Capture.png);
+    background-position: 30%;
+    background-size: 99%;
+}
+
+.six {
+    background-image: url(../resources/travaux_pro/Sandy_cartes.jpg);
+    background-position: 30%;
+    background-size: 103%;
+}
