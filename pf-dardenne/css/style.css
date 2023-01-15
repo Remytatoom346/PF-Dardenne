@@ -47,7 +47,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 480px;
+    width: 472px;
     height: 50px;
 }
 
@@ -144,4 +144,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.titre_card {
+    font-family: var(--font-use);
+    font-size: 1.8rem;
+    color: var(--text-color);
+    border-bottom: solid 2px var(--accent-color);
+    margin: 10px 0 10px 0;
 }
