@@ -16,6 +16,15 @@ main {
     margin: 10px 0 10px 0;
 }
 
+.titre_projet {
+    font-family: var(--font-use);
+    font-size: 1rem;
+    color: var(--text-color);
+    border-bottom: solid 2px var(--accent-color);
+    margin-top: 30px;
+}
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -25,12 +34,12 @@ main {
 
 .child_container {
     display: flex;
-    padding: 20px;
 
 }
 
 .img1 {
-    width: 400px;
+    width: 238px;
+    height: 238px;
     margin: 25px;
 }
 
@@ -40,31 +49,11 @@ main {
 }
 
 .img3 {
-    width: 250px;
     margin: 25px;
+    width: 382px;
 }
 
 .img4 {
-    width: 250px;
     margin: 25px;
-}
-
-.img5 {
-    width: 250px;
-    margin: 25px;
-}
-
-.img6 {
-    width: 300px;
-    margin: 25px;
-}
-
-.img7 {
-    width: 250px;
-    margin: 25px;
-}
-
-.img8 {
-    width: 300px;
-    margin: 25px;
+    width: 350px;
 }
