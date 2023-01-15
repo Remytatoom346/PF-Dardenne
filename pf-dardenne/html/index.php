@@ -27,13 +27,20 @@
                 <br class='main_text'>
                 Tatoom c'est quoi ? :
                 <br class='main_text'>
-                 C'est mon pseudo je m'en sert comme nom pour mes créations
+                 C'est mon pseudo, je m'en sert comme nom pour mes créations
             </p>
         </div>
+        
         <h2 class="titre_card">À Propos</h2>
-        <div class="card_index"></div>
+        <a href="a_propos.php" >
+            <div class="card_index"></div>
+        </a>
+       
         <h2 class="titre_card">Mon Travail</h2>
-        <div class="card_index"></div>
+        <a href="travaux.php">
+            <div class="card_index"></div>
+        </a>
+        
 
         <h2 class="titre_card">Mes coordonées</h2>
         <div class="intro">
