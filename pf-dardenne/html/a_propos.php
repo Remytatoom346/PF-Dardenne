@@ -16,11 +16,9 @@
     <!-- DEBUT MAIN -->
     <main>
 
-
-
         <div class='container_text'>
             <h2 class='titre_card'>À PROPOS</h2>
-            <img src="../resources/PP.jpg" alt="" srcset="" class="photo_profil">
+            <img src="../resources/photo/auto-portrait1.jpg" alt="photo de profile de Rémy Dardenne" srcset="" class="photo_profil">
             <p class='current_text'>Graphiste de 22 ans,<br>
                 Je suis actuellement en formation pour devenir développeur web.<br>
                 J’aime tout ce qui touche au art graphique et j'aime créer toutes sorte de choses.<br>
@@ -30,26 +28,29 @@
 
         <div class='container_text'>
             <h2 class='titre_card'>MES COMPÉTENCES</h2>
-            <p class='current_text'>GRAPHISME<br>
+            <div class='small_content'>
+                <p class='current_text'>GRAPHISME<br>
                 Maîtrise de la suite adobe : <br>
                 Illustrator - Indesign - Photoshop <br>
                 Figma <br>
                 Photographie - Création - <br> 
                 Produits imprimée - Maquette site
-            </p>
-            <p class='current_text'>DEVELOPPEMENT WEB<br>
-                apprentissage des languages :<br> 
+                </p>
+                <p class='current_text'>DEVELOPPEMENT WEB<br>
+                apprentissage des langages :<br> 
                 HTML | CSS | JAVASCRIPT | PHP<br>
                 BASE DE DONNÉES | SQL <br>
                 apprentissage de : <br>
                 Wordpress | Laravel | Sass
-            </p>
+                </p>
+            </div>
+        </div>
 
         <div class='container_text'>
             <h2 class='titre_card'>MES COMPÉTENCES</h2>
             <p class='current_text'>En cours de formation pour le Titre profesionnel développeur web / web mobile<br>
                 CFA Greta-Lycée Mermoz 2022-2023 <br>
-                • Languages HTML / CSS / JS / PHP<br>
+                • Langages HTML / CSS / JS / PHP<br>
                 • Base de données / SQL<br>
                 • Création de projet web en autonomie<br>
             </p>
@@ -77,6 +78,7 @@
 
         <div class='container_text'>
             <h2 class='titre_card'>MES ÉXPERIENCES PRO</h2>
+            <div class='small_content'>
             <p class='current_text'>Alternance - A VOS IMPRESSIONS<br>
                 Du 09/2020 au 31/08/2022 <br>
                 •Créations graphique - produits imprimés<br>
@@ -91,11 +93,10 @@
                 Relations clients <br>
                 Gestion du temps <br>
             </p>
+            </div>
         </div>
 
-
-
-
+        <a href="../resources/CV_Remy_Dardenne.pdf" download class='current_text'>Télécharger mon CV ici</a>
 
     </main>
 

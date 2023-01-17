@@ -38,4 +38,5 @@
         <?php include 'footer.php' ?>
     </footer> 
 </body>
+<script src="../Js/main.js"></script>
 </html>

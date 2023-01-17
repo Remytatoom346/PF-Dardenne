@@ -15,6 +15,12 @@ a {
     color: var(--text-color);
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(../resources/font/Montserrat-Medium.ttf);
+}
+
+
 /* HEADER */
 
 /* DIV LOGO */

@@ -36,4 +36,5 @@
     </footer>
     
  </body>
+ <script src="../Js/main.js"></script>
  </html>

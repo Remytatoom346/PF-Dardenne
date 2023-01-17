@@ -40,10 +40,16 @@ p {
     font-family: var(--font-use);
     font-size: 1.1rem;
     color: var(--text-color);
-    margin: 10px 0 30px 0;
+    margin: 10px 10px 30px 30px;
     text-align: center;
 }
 
 .main_text {
     margin: 5px 0 5px 0;
+}
+
+.small_content {
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
