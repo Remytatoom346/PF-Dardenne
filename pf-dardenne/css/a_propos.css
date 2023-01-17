@@ -53,3 +53,7 @@ p {
     justify-content: center;
     align-items: start;
 }
+
+.underline {
+    text-decoration: underline;
+}

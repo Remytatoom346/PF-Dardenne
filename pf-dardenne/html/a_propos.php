@@ -21,7 +21,7 @@
             <img src="../resources/photo/auto-portrait1.jpg" alt="photo de profile de Rémy Dardenne" srcset="" class="photo_profil">
             <p class='current_text'>Graphiste de 22 ans,<br>
                 Je suis actuellement en formation pour devenir développeur web.<br>
-                J’aime tout ce qui touche au art graphique et j'aime créer toutes sorte de choses.<br>
+                J'aime tout ce qui touche au art graphique et j'aime créer toutes sorte de choses.<br>
                 Je connais le monde PRINT du graphisme allant du simple flyers, au flocage de véhicules.
             </p>
         </div>
@@ -89,14 +89,14 @@
             </p>
             <p class='current_text'>CDI équipier polyvalent Macdonalds<br>
                 du 05/2019 au 10/2020 <br>
-                Travail d’équipe <br>
+                Travail d'équipe <br>
                 Relations clients <br>
                 Gestion du temps <br>
             </p>
             </div>
         </div>
 
-        <a href="../resources/CV_Remy_Dardenne.pdf" download class='current_text'>Télécharger mon CV ici</a>
+        <a href="../resources/CV_Remy_Dardenne.pdf" download class='current_text underline'>Télécharger mon CV ici</a>
 
     </main>
 

@@ -15,8 +15,9 @@
     </header>
     
     <main>
-    <h2 class="titre_card">MES TRAVAUX : MES VEILLES TECHNOLOGIQUE</h2>
+    <h2 class="titre_card">MES TRAVAUX : MES SITES WEB</h2>
     <h4 class='titre_projet'>Playeur audio | Doppler</h4>
+    <a href="https://github.com/Remytatoom346/doppler_project.git" class='intro'>Liens Github</a>
         <div class='container'>
             <div class='child_container'>
             <a href="https://dardenne.needemand.com/realisation/player_audio/Code/Html/"> <img src="../resources/site_web/MacBook Air - 1.jpg" alt="" class='img1'></a>

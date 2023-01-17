@@ -20,54 +20,55 @@
         <h2 class="titre_card">MES TRAVAUX</h2>
 
         <section class='container_card_travaux'>
-
-        <div class="card_travaux un">
-            <a href="travaux_creation.php">
+            
+        <a href="travaux_creation.php">
+            <div class="card_travaux un">
                 <div class='titre_card_travaux'>
                     <h3>CRÉATION TATOOM</h3>
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
 
-        <div class="card_travaux deux">
-            <a href="travaux_photo.php">
+        <a href="travaux_photo.php">
+            <div class="card_travaux deux">
                 <div class='titre_card_travaux'>
                     <h3>PHOTOGRAPHIE</h3>
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
 
-        <div class="card_travaux trois">
-            <a href="travaux_web.php">
+        <a href="travaux_web.php">
+            <div class="card_travaux trois">
                 <div class='titre_card_travaux'>
                     <h3>SITES WEB</h3>
                 </div>
-            </a>
-        </div>
-
-        <div class="card_travaux quatre">
-            <a href="travaux_projet.php">
+            </div>
+        </a>
+        
+        <a href="travaux_projet.php">
+            <div class="card_travaux quatre">
                 <div class='titre_card_travaux'>
                     <h3>PROJET PERSO</h3>
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
 
-        <div class="card_travaux cinq">
-            <a href="travaux_veille.php">
+        <a href="travaux_veille.php">
+            <div class="card_travaux cinq">
                 <div class='titre_card_travaux'>
                     <h3>VEILLE</h3>
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
 
-        <div class="card_travaux six">
-            <a href="travaux_pro.php"> 
+        <a href="travaux_pro.php"> 
+            <div class="card_travaux six">
                 <div class='titre_card_travaux'>
                     <h3>TRAVAUX PRO</h3>
                 </div>
-            </a>
-        </div>
+            </div>
+        </a>
+
         </section>
 
 

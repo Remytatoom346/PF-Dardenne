@@ -14,26 +14,20 @@
     <?php include 'header.php' ?>
     </header>
     
-    <main>
+<main>
     <h2 class="titre_card">MES TRAVAUX : PHOTOGRAPHIE</h2>
-        <div class='container'>
-            <div class='child_container'>
-                <img src="../resources/photo/pont-canet.jpg" alt="" srcset="" class="img1">
-                <img src="../resources/photo/ligth-serie02.jpg" alt="" srcset="" class="img2">
-            </div>
-            <div class='child_container'>
-                <img src="../resources/photo/ligth-serie03.jpg" alt="" srcset="" class="img3">
-                <img src="../resources/photo/sea3.jpg" alt="" srcset="" class="img4">
-                <img src="../resources/photo/sea1.jpg" alt="" srcset="" class="img5">
-            </div>
-            <div class='child_container'>
-                <img src="../resources/photo/sea2.jpg" alt="" srcset="" class="img6">
-                <img src="../resources/photo/auto-portrait1.jpg" alt="" srcset="" class="img7">
-                <img src="../resources/photo/forest-tree.jpg" alt="" srcset="" class="img8">
-            </div>
-        </div>
+    <div class='container'>
+        <img src="../resources/photo/pont-canet.jpg" alt="" srcset="" class="img1 marg">
+        <img src="../resources/photo/ligth-serie02.jpg" alt="" srcset="" class="img2 marg">
+        <img src="../resources/photo/ligth-serie03.jpg" alt="" srcset="" class="img3 marg">
+        <img src="../resources/photo/sea3.jpg" alt="" srcset="" class="img4 marg">
+        <img src="../resources/photo/sea1.jpg" alt="" srcset="" class="img5 marg">
+        <img src="../resources/photo/sea2.jpg" alt="" srcset="" class="img6 marg">
+        <img src="../resources/photo/auto-portrait1.jpg" alt="" srcset="" class="img7 marg">
+        <img src="../resources/photo/forest-tree.jpg" alt="" srcset="" class="img8 marg">
+    </div>
 
-    </main>
+</main>
 
     <footer>
         <?php include 'footer.php' ?>

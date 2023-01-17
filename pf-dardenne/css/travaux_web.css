@@ -8,6 +8,17 @@ main {
     align-items: center;
 }
 
+.intro {
+    display: flex;
+    font-family: var(--font-use);
+    font-size: 0.8rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+
 .titre_card {
     font-family: var(--font-use);
     font-size: 1.8rem;
@@ -21,7 +32,7 @@ main {
     font-size: 1rem;
     color: var(--text-color);
     border-bottom: solid 2px var(--accent-color);
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .container {
@@ -37,5 +48,5 @@ main {
 
 .img1 {
     width: 600px;
-    margin: 50px;
+    margin: 10px;
 }
