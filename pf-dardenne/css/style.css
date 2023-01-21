@@ -58,7 +58,7 @@ a {
     height: 50px;
 }
 
-.text1 {
+.text {
     background-color: var(--primary-color);
     font-family: var(--font-use);
     color: var(--primary-color);
@@ -67,31 +67,13 @@ a {
     border-color: var(--primary-color);
 }
 
-.text2 {
-    background-color: var(--primary-color);
-    font-family: var(--font-use);
-    color: var(--text-color);
-    border-width: 2px;
-    border-style: solid;
-    border-color: var(--primary-color);
+.text:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
-.text3 {
-    background-color: var(--primary-color);
-    font-family: var(--font-use);
-    color: var(--text-color);
-    border-width: 2px;
-    border-style: solid;
-    border-color: var(--primary-color);
-}
-
-.text4 {
-    background-color: var(--primary-color);
-    font-family: var(--font-use);
-    color: var(--text-color);
-    border-width: 2px;
-    border-style: solid;
-    border-color: var(--primary-color);
+.container_navbar_mobile {
+    display: none;
 }
 
 /* SLIDER */
@@ -128,10 +110,6 @@ a {
     color: var(--text-color);
 }
 
-.nav_footer:hover {
-    color: var(--accent-color);
-}
-
 .titre_nav_footer {
     margin: 20px;
 }
@@ -147,6 +125,9 @@ a {
 /* burger menu responsive*/
 
 @media screen and (max-width: 500px) {
+
+    /* ---------NAVBAR/HEADER------------- */
+
     .burger_container {
         display: flex;
         flex-direction: column;
@@ -154,6 +135,9 @@ a {
         align-items: center;
         width: 40px;
         height: 40px;
+        position: absolute;
+        right: 40px;
+        cursor: pointer;
     }
 
     .burger {
@@ -165,7 +149,10 @@ a {
     }
 
     .logo {
-        height: 60px;
+        height: 50px;
+        position: absolute;
+        left: 20px;
+        top: 22px;
     }
 
     .container_header {
@@ -188,5 +175,54 @@ a {
         display: none;
     }
 
+    .container_navbar_mobile {
+        display: none;
+        flex-direction: column;
+        width: 60%;
+        height: 280px;
+        background-color: var(--primary-color);
+        position: relative;
+        top: 190px;
+        right: 0px;
+    }
+
+    .navbar_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 25%;
+    }
+
+    .text {
+        font-size: 0.8rem;
+    }
+
+    /* ---------SLIDER------------- */
+
+    .slider_header {
+        height: 200px;
+        font-size: 1.3rem;
+        color: var(--text-color);
+        text-align: center;
+    }
+
+    /* ---------FOOTER------------- */
+
+    .nav_footer {
+        text-align: center;
+
+    }
+
+    .titre_nav_footer {
+        margin: 5px;
+        font-size: 0.7rem;
+    }
+
+    .credits {
+        font-family: var(--font-use);
+        font-size: 0.5rem;
+        color: var(--text-color);
+    }
 
 }

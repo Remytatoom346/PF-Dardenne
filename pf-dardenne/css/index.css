@@ -35,9 +35,13 @@ main {
 .card_index {
     width: 800px;
     height: 250px;
-    background-color: bisque;
+    background-image: url(../resources/3Plan\ de\ travail\ 1.png);
     border-radius: 8px;
     margin: 10px 0 10px 0;
+}
+
+.card_index:hover {
+    opacity: 30%;
 }
 
 .reseaux_text {
@@ -53,10 +57,14 @@ main {
     margin-right: 10px;
 }
 
-/* .link_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
+.img_propos {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.img_propos:hover {
+    opacity: 30%;
+}
 
 /* MAIN INDEX*/
