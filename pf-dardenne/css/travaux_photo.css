@@ -58,3 +58,57 @@ main {
 .img8 {
     width: 300px;
 }
+
+@media screen and (max-width: 500px) {
+    .titre_card {
+        font-size: 1rem;
+    }
+
+    .img1 {
+        width: 300px;
+    }
+
+    .img2 {
+        width: 300px;
+    }
+
+    .img3 {
+        width: 300px;
+    }
+
+    .img4 {
+        width: 300px;
+    }
+
+    .img5 {
+        width: 300px;
+    }
+
+    .img6 {
+        width: 300px;
+    }
+
+    .img7 {
+        width: 300px;
+    }
+
+    .img8 {
+        width: 300px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        justify-content: center;
+        width: 90%;
+    }
+
+    .marg {
+        margin: 25px;
+    }
+
+}

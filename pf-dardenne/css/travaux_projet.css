@@ -58,3 +58,49 @@ main {
     width: 350px;
 }
 
+@media screen and (max-width: 855px) {
+    .child_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    .img1 {
+        width: 100%;
+        margin: 25px 0 25px 0;
+        height: auto;
+    }
+
+    .img2 {
+        width: 100%;
+        margin: 25px 0 25px 0;
+    }
+
+    .img3 {
+        width: 100%;
+        margin: 25px 0 25px 0;
+    }
+
+    .img4 {
+        width: 100%;
+        margin: 25px 0 25px 0;
+    }
+}
+
+
+
+@media screen and (max-width: 570px) {
+    .titre_card {
+        font-size: 1rem;
+    }
+
+    .img1 {
+        margin: 25px 0 25px 0;
+        height: auto;
+    }
+
+    .img2 {
+        margin: 25px 0 25px 0;
+    }
+}

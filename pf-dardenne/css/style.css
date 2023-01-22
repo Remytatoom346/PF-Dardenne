@@ -203,7 +203,6 @@ a {
     .slider_header {
         height: 200px;
         font-size: 1.3rem;
-        color: var(--text-color);
         text-align: center;
     }
 
@@ -223,6 +222,14 @@ a {
         font-family: var(--font-use);
         font-size: 0.5rem;
         color: var(--text-color);
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .slider_header {
+        text-align: center;
     }
 
 }

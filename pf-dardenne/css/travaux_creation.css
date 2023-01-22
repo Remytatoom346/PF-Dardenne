@@ -33,3 +33,17 @@ main {
     border-bottom: solid 2px var(--accent-color);
     margin: 10px 0 10px 0;
 }
+
+@media screen and (max-width: 1000px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titre_card {
+        font-size: 1rem;
+    }
+}

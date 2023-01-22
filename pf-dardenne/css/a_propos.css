@@ -57,3 +57,26 @@ p {
 .underline {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 500px) {
+
+    .titre_card {
+        font-size: 1.2rem;
+    }
+
+    .small_content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .current_text {
+        font-size: 0.95rem;
+        margin: 10px 10px 10px 10px;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+}
