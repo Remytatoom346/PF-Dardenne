@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,15 @@
     <link rel="stylesheet" href="../css/travaux_projet.css">
     <title>PF - Dardenne | Mes Projets</title>
 </head>
+
 <body>
-<header>
-    <?php include 'header.php' ?>
+    <header>
+        <?php include 'header.php' ?>
     </header>
-    
+
     <main>
-    <h2 class="titre_card">MES TRAVAUX : MES PROJETS PERSO</h2>
-    <h4 class='titre_projet'>MÉLANKOLYA</h4>
+        <h2 class="titre_card">MES TRAVAUX : MES PROJETS</h2>
+        <h4 class='titre_projet'>MÉLANKOLYA</h4>
         <div class='container'>
             <div class='child_container'>
                 <img src="../resources/projet/mel-logo.png" alt="" srcset="" class="img1">
@@ -25,15 +27,24 @@
             <div class='child_container'>
                 <img src="../resources/projet/mel-desgn1.png" alt="" srcset="" class="img3">
                 <img src="../resources/projet/Melankolya BG(1).jpg" alt="" srcset="" class="img4">
-
             </div>
         </div>
+
+        <a href="travaux_veille.php">
+            <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Mes veilles</span>
+            </button>
+        </a>
 
     </main>
 
     <footer>
         <?php include 'footer.php' ?>
-    </footer> 
+    </footer>
 </body>
 <script src="../Js/main.js"></script>
+
 </html>
