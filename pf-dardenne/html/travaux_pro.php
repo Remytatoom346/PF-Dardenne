@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,14 @@
     <link rel="stylesheet" href="../css/travaux_pro.css">
     <title>PF - Dardenne | Mes travaux Pro</title>
 </head>
+
 <body>
     <header>
         <?php include 'header.php' ?>
     </header>
 
     <main>
-    <h2 class="titre_card">MES TRAVAUX PROFESSIONNEL</h2>
+        <h2 class="titre_card">MES TRAVAUX PROFESSIONNELS</h2>
         <div class='container'>
             <div class='child_container'>
                 <img src="../resources/travaux_pro/carte_pizza.jpg" alt="" srcset="" class="img1">
@@ -36,7 +38,8 @@
 
     <footer>
         <?php include 'footer.php' ?>
-    </footer> 
+    </footer>
 </body>
 <script src="../Js/main.js"></script>
+
 </html>

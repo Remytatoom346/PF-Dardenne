@@ -44,6 +44,9 @@ main {
     font-family: var(--font-use);
     font-size: 1.4rem;
     color: var(--text-color);
+}
+
+.marge_card{
     margin: 50px 150px 50px 150px;
 }
 

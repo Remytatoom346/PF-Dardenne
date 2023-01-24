@@ -1,5 +1,4 @@
 /* MAIN INDEX*/
-
 main {
     width: 100%;
     height: auto;
@@ -66,6 +65,9 @@ main {
     opacity: 30%;
 }
 
+#ancre_contact{
+    scroll-behavior: smooth;
+}
 @media screen and (max-width: 500px) {
 
     /* main {

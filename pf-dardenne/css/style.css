@@ -10,6 +10,10 @@
 }
 
 /* RESET  */
+html{
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
     color: var(--text-color);
@@ -19,7 +23,6 @@ a {
     font-family: "Montserrat";
     src: url(../resources/font/Montserrat-Medium.ttf);
 }
-
 
 /* HEADER */
 
@@ -54,10 +57,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 25%;
     height: 50px;
 }
-
+.link_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+}
 .text {
     background-color: var(--primary-color);
     font-family: var(--font-use);
@@ -269,8 +279,8 @@ button:hover .button-text {
         width: 60%;
         height: 280px;
         background-color: var(--primary-color);
-        position: relative;
-        top: 190px;
+        position: absolute;
+        top: 100px;
         right: 0px;
     }
 

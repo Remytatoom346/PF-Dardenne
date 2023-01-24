@@ -9,17 +9,17 @@
             <div class="burger"></div>
         </div>
         <ul class='container_navbar_mobile'>
-            <li class="navbar_mobile text"><a href="index.php"> ACCUEIL </a></li>
-            <li class="navbar_mobile text"><a href="travaux.php">MES TRAVAUX</a></li>
-            <li class="navbar_mobile text"><a href="a_propos.php">À PROPOS</a></li>
-            <li class="navbar_mobile text"><a href="">CONTACT</a></li>
+            <li class="navbar_mobile text"><a href="index.php" class="link_nav"> ACCUEIL </a></li>
+            <li class="navbar_mobile text"><a href="travaux.php" class="link_nav">MES TRAVAUX</a></li>
+            <li class="navbar_mobile text"><a href="a_propos.php" class="link_nav">À PROPOS</a></li>
+            <li class="navbar_mobile text"><a href="" class="link_nav">CONTACT</a></li>
         </ul>
     </div>
     <ul class='container_navbar'>
-        <li class="navbar text"><a href="index.php"> ACCUEIL </a></li>
-        <li class="navbar text"> <a href="travaux.php">MES TRAVAUX </a></li>
-        <li class="navbar text"><a href="a_propos.php">À PROPOS</a></li>
-        <li class="navbar text"><a href="">CONTACT</a></li>
+        <li class="navbar text"><a href="index.php" class="link_nav"> ACCUEIL </a></li>
+        <li class="navbar text"><a href="travaux.php" class="link_nav">MES TRAVAUX </a></li>
+        <li class="navbar text"><a href="a_propos.php" class="link_nav">À PROPOS</a></li>
+        <li class="navbar text"><a href="index.php#ancre_contact" class="link_nav">CONTACT</a></li>
     </ul>
 
 </div>

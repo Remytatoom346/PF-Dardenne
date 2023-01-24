@@ -19,17 +19,17 @@
     <main>
         <div class="intro">
             <p>
-                Bienvenue sur mon Port-folio :
+                Bienvenue sur mon Portfolio :
                 <br class='main_text'>
                 <br class='main_text'>
                 Vous pouvez retrouver toutes mes réalisations
                 <br class='main_text'>
-                Mes photographies, Mes créations graphiques, Mes sites web, et mes autres projets pro ou personel
+                Mes photographies, Mes créations graphiques, Mes sites web, et mes autres projets pros ou personnels
                 <br class='main_text'>
                 <br class='main_text'>
                 Tatoom c'est quoi ? :
                 <br class='main_text'>
-                C'est mon pseudo, je m'en sert comme nom pour mes créations
+                C'est mon pseudo, je m'en sers comme nom pour mes créations
             </p>
         </div>
 
@@ -44,7 +44,7 @@
         </a>
 
 
-        <h2 class="titre_card">Mes coordonées</h2>
+        <h2 class="titre_card" id="ancre_contact">Mes coordonées</h2>
         <div class="intro">
             <p>Email : remydardennevansse@gmail.com
                 <br class='main_text'>Tél : 06 95 25 96 34

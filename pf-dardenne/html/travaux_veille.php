@@ -17,8 +17,8 @@
     </header>
 
     <main>
-        <h2 class="titre_card">MES TRAVAUX : MES VEILLES TECHNOLOGIQUE</h2>
-        <h4 class='titre_projet'>BOOTSRAP</h4>
+        <h2 class="titre_card">MES TRAVAUX : MES VEILLES TECHNOLOGIQUES</h2>
+        <h4 class='titre_projet'>BOOTSTRAP</h4>
         <div class='container'>
             <div class='child_container'>
                 <embed src="../resources/veille/Veille technologique BOOTSRAP.pdf" type="application/pdf" class='lecteur_pdf' />
